@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hacking Tutorial</string>
+    <string name="hacking">Hacking</string>
+    <string name="button_text">Start Tutorial</string>
+</resources>
