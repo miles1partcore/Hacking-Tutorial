@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    tools:context=".overviewActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/horizontal_line"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:gravity="center_horizontal"
+        android:text="TYPE OF HACKER"
+        android:textColor="#33691e"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/horizontal_line"
+        />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/image2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@id/imageView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/type_of_hacker"
+                android:textColor="#33691e"
+                android:textSize="25sp" />
+
+            // White Hat Hacker
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/horizontal_line"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:gravity="center_horizontal"
+                android:text="WHITE HAT HACKER"
+                android:textColor="#33691e"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/horizontal_line"
+                />
+
+            <TextView
+                android:id="@+id/whiteHatHAcker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/whiteHatHAcker"
+                android:textColor="#33691e"
+                android:textSize="25sp" />
+
+            // Black Hat Hacker
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/horizontal_line"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/title3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:gravity="center_horizontal"
+                android:text="BLACK HAT HACKER"
+                android:textColor="#33691e"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/horizontal_line"
+                />
+
+            <TextView
+                android:id="@+id/blackHatHAcker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/blackHatHacker"
+                android:textColor="#33691e"
+                android:textSize="25sp" />
+
+            // Grey Hat Hacker
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/horizontal_line"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/title4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:gravity="center_horizontal"
+                android:text="GREY HAT HACKER"
+                android:textColor="#33691e"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/horizontal_line"
+                />
+
+            <TextView
+                android:id="@+id/greyHatHacker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/greyHatHacker"
+                android:textColor="#33691e"
+                android:textSize="25sp" />
+
+            //MISCELLANEOUS HACKERS
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/horizontal_line"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/title5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:gravity="center_horizontal"
+                android:text="MISCELLANEOUS HACKERS"
+                android:textColor="#33691e"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/horizontal_line"
+                />
+
+            <TextView
+                android:id="@+id/miscellaneousHackers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/Miscellaneous_Hackers"
+                android:textColor="#33691e"
+                android:textSize="25sp" />
+
+            // Red Hat Hacker
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/horizontal_line"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/title6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:gravity="center_horizontal"
+                android:text="RED HAT HACKER"
+                android:textColor="#33691e"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/horizontal_line"
+                />
+
+            <TextView
+                android:id="@+id/redHatHacker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/redHatHacker"
+                android:textColor="#33691e"
+                android:textSize="25sp" />
+
+            // Blue Hat Hacker
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/horizontal_line"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/title7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:gravity="center_horizontal"
+                android:text="BLUE HAT HACKER"
+                android:textColor="#33691e"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/horizontal_line"
+                />
+
+            <TextView
+                android:id="@+id/blueHatHacker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/blueHatHacker"
+                android:textColor="#33691e"
+                android:textSize="25sp" />
+
+            // ELITE HACKER
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/horizontal_line"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/title8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:gravity="center_horizontal"
+                android:text="ELITE HACKER"
+                android:textColor="#33691e"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/horizontal_line"
+                />
+
+            <TextView
+                android:id="@+id/eliteHackers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/eliteHacker"
+                android:textColor="#33691e"
+                android:textSize="25sp" />
+
+            // SCRIPT KIDDIE
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/horizontal_line"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/title9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:gravity="center_horizontal"
+                android:text="SCRIPT KIDDIE"
+                android:textColor="#33691e"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/horizontal_line"
+                />
+
+            <TextView
+                android:id="@+id/scriptKiddie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/scriptHatKiddie"
+                android:textColor="#33691e"
+                android:textSize="25sp" />
+
+            // NEOPYTE
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/horizontal_line"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/title10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:gravity="center_horizontal"
+                android:text="NEOPYTE"
+                android:textColor="#33691e"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/horizontal_line"
+                />
+
+            <TextView
+                android:id="@+id/neophyte"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/neophyte"
+                android:textColor="#33691e"
+                android:textSize="25sp" />
+
+            // HACKTIVIST
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/horizontal_line"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/title11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:gravity="center_horizontal"
+                android:text="HACKTIVIST"
+                android:textColor="#33691e"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@drawable/horizontal_line"
+                />
+
+            <TextView
+                android:id="@+id/hacktivist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/hacktivist"
+                android:textColor="#33691e"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
