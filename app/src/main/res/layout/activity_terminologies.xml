@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/side_nav_bar"
+    android:orientation="vertical"
+    tools:context=".terminologiesActivity">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="5dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/horizontal_line" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Terminologies"
+        android:textAllCaps="true"
+        android:textColor="#000"
+        android:textSize="30sp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="@drawable/horizontal_line"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="DDoS"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+            <TextView
+                android:id="@+id/ddos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/DDoS"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="SE"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+            <TextView
+                android:id="@+id/se"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/SE"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="VPS"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+            <TextView
+                android:id="@+id/VPS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/VPS"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="HTTP"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/HTTP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/HTTP"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="SSH"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/SSH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/SSH"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="FTP"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/FTP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/FTP"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="CSS / XSS"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/CSS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/CSS"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Script Kiddie"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/Script_Kiddie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/Script_Kiddie"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="VPN"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/VPN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/VPN"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Nix"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/Nix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/Nix"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="SQL"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/SQL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/SQL"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="FUD"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/FUD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/FUD"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Trojan"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/Trojan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/Trojan"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="BotNet"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/Botnet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/Botnet"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="SQL Injection"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/Sql_injection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/SQL_Injection"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Root"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/Root"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/Root"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Warez"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/Warez"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/Warez"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="RootKit"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/rootkit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/Rootkit"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Ring0"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/ring0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/Ring0"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="IP Grabber"
+            android:textColor="#000"
+            android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/IP_Grabber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/IP_Grabber"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Malware"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/Malware"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/Malware"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Phreak"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/Phreak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/Phreak"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="DOX"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/Dox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/DOX"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Worm"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/Worm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/Worm"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Deface"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/Deface"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/Deface"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Keylogger"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/keylogger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/Keylogger"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Rat"
+                android:textColor="#000"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/rat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="@string/Rat"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
