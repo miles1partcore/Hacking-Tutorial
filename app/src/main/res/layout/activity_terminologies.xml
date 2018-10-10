@@ -362,12 +362,12 @@
                 android:textColor="@color/textcolor"
                 android:textSize="25sp" />
             <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="IP Grabber"
-            android:textColor="#000"
-            android:textSize="25sp"/>
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="IP Grabber"
+                android:textColor="#000"
+                android:textSize="25sp"/>
 
             <TextView
                 android:id="@+id/IP_Grabber"

@@ -34,6 +34,7 @@ public class ContentAdapter extends ArrayAdapter<content> {
         TextView contenttitle = (TextView) convertView.findViewById(R.id.contentTitle);
         ImageView contentimage = (ImageView) convertView.findViewById(R.id.image);
 
+
         contenttitle.setText(Content.getmContentName());
         contentimage.setImageResource(Content.getmImage());
 

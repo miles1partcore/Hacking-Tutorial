@@ -18,8 +18,13 @@ import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.google.firebase.analytics.FirebaseAnalytics;
+
 public class Hacking_Tutorial extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
+    // Analytic variable
+    private FirebaseAnalytics mFirebaseAnalytics;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +33,9 @@ public class Hacking_Tutorial extends AppCompatActivity
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        // Obtain the FirebaseAnalytics instance.
+
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
         //linking button for main_List_Activity
 

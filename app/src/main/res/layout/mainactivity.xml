@@ -17,35 +17,35 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical">
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="60dp"
-                android:shadowColor="@android:color/holo_green_dark"
-                android:singleLine="true"
-                android:text="@string/hacking"
-                android:textAllCaps="true"
-                android:textColor="@android:color/holo_green_light"
-                android:textSize="60sp"
-                android:textStyle="bold|italic" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:shadowColor="@android:color/holo_green_dark"
-                android:singleLine="true"
-                android:textAllCaps="true"
-                android:text="TUTORIAL"
-                android:textColor="@android:color/darker_gray"
-                android:textSize="60sp"
-                android:textStyle="bold|italic" />
-        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:shadowColor="@android:color/holo_green_dark"
+                    android:singleLine="true"
+                    android:text="@string/hacking"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/holo_green_light"
+                    android:textSize="60sp"
+                    android:textStyle="bold|italic" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:shadowColor="@android:color/holo_green_dark"
+                    android:singleLine="true"
+                    android:textAllCaps="true"
+                    android:text="TUTORIAL"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="60sp"
+                    android:textStyle="bold|italic" />
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -62,8 +62,27 @@
                     android:text="@string/button_text"
                     android:textAllCaps="true"
                     android:textSize="25sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/adView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+                    />
             </LinearLayout>
         </LinearLayout>
 
     </ScrollView>
+
 </RelativeLayout>

@@ -4,6 +4,13 @@ public class content {
 
     private String mContentName;
     private int mImage;
+    private int mActivityId;
+
+    public content(String ContentName, int Image, int ActivityId){
+        mContentName = ContentName;
+        mImage = Image;
+        mActivityId = ActivityId;
+    }
 
     public content(String ContentName, int Image){
         mContentName = ContentName;
@@ -17,4 +24,6 @@ public class content {
     public int getmImage() {
         return mImage;
     }
+
+    public int getmActivityId(){return mActivityId;}
 }

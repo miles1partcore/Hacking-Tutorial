@@ -14,10 +14,10 @@
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
-       <include
-           layout="@layout/mainactivity"
-           android:layout_width="match_parent"
-           android:layout_height="match_parent" />
+        <include
+            layout="@layout/mainactivity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
     </LinearLayout>
 
     <include
