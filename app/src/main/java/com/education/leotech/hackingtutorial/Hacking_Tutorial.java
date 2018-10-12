@@ -1,11 +1,8 @@
 package com.education.leotech.hackingtutorial;
 
 
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -15,8 +12,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
-import android.widget.Toast;
+import android.widget.TextView;
 
 import com.google.firebase.analytics.FirebaseAnalytics;
 
@@ -33,6 +32,9 @@ public class Hacking_Tutorial extends AppCompatActivity
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        // for animation
+        Animation mfromRight, mfromLeft;
+
         // Obtain the FirebaseAnalytics instance.
 
         mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
@@ -40,7 +42,15 @@ public class Hacking_Tutorial extends AppCompatActivity
         //linking button for main_List_Activity
 
         final Button mainListButton = findViewById(R.id.button);
+        final TextView mhacking = findViewById(R.id.texthacking);
+        final TextView mtutorial = findViewById(R.id.texttutorial);
 
+        // animation
+           mfromRight = AnimationUtils.loadAnimation(this,R.anim.fronright);
+           mfromLeft = AnimationUtils.loadAnimation(this, R.anim.fromleft);
+           mhacking.setAnimation(mfromLeft);
+           mtutorial.setAnimation(mfromLeft);
+           mainListButton.setAnimation(mfromRight);
         // Intent for mainListActivity
 
         mainListButton.setOnClickListener(new View.OnClickListener() {
