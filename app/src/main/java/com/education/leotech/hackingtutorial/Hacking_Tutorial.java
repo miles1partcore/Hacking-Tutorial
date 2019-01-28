@@ -3,6 +3,7 @@ package com.education.leotech.hackingtutorial;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -16,18 +17,19 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
-import com.google.firebase.analytics.FirebaseAnalytics;
+
 
 public class Hacking_Tutorial extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    // Analytic variable
-    private FirebaseAnalytics mFirebaseAnalytics;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_hacking__tutorial);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -35,9 +37,7 @@ public class Hacking_Tutorial extends AppCompatActivity
         // for animation
         Animation mfromRight, mfromLeft;
 
-        // Obtain the FirebaseAnalytics instance.
 
-        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
         //linking button for main_List_Activity
 
@@ -135,4 +135,6 @@ public class Hacking_Tutorial extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+
 }

@@ -2,8 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.education.leotech.hackingtutorial">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -27,6 +25,25 @@
         <activity android:name=".terminologiesActivity" />
         <activity android:name=".ToolsActivity" />
         <activity android:name=".skillsActivity" />
+        <activity android:name=".FootPrinting" />
+        <activity android:name=".FingerPrinting" />
+        <activity android:name=".Sniffing" />
+        <activity android:name=".SniffingTools" />
+        <activity android:name=".ArpPoisoning" />
+        <activity android:name=".DnsPoisoning" />
+        <activity android:name=".Exploitation" />
+        <activity android:name=".Enumeration" />
+        <activity android:name=".Metasploit" />
+        <activity android:name=".TrojanAttacks" />
+        <activity android:name=".TcpIpHijacking" />
+        <activity android:name=".EmailHijacking" />
+        <activity android:name=".PasswordHacking" />
+        <activity android:name=".WirelessHacking" />
+        <activity android:name=".SocialEngineering" />
+        <activity android:name=".DDOsAttacks" />
+        <activity android:name=".CrossSiteScripting" />
+        <activity android:name=".SQlInjection" />
+        <activity android:name=".PenTesting"></activity>
     </application>
 
 </manifest>

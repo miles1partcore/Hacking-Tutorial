@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/type_of_hacker"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/side_nav_bar"
@@ -12,8 +13,8 @@
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="5dp"
-        android:layout_marginBottom="1dp"
         android:layout_marginTop="16dp"
+        android:layout_marginBottom="1dp"
         android:background="@drawable/horizontal_line"
         tools:layout_editor_absoluteX="0dp" />
 
@@ -31,8 +32,7 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="5dp"
-        android:background="@drawable/horizontal_line"
-        />
+        android:background="@drawable/horizontal_line" />
 
     <ScrollView
         android:id="@+id/scroll"
@@ -55,8 +55,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
                 android:gravity="center"
                 android:padding="16dp"
                 android:text="@string/type_of_hacker"
@@ -64,12 +64,13 @@
                 android:textSize="25sp" />
 
             // White Hat Hacker
+
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="wrap_content"
                 android:layout_height="5dp"
-                android:layout_marginBottom="1dp"
                 android:layout_marginTop="16dp"
+                android:layout_marginBottom="1dp"
                 android:background="@drawable/horizontal_line"
                 tools:layout_editor_absoluteX="0dp" />
 
@@ -87,15 +88,14 @@
                 android:id="@+id/imageView4"
                 android:layout_width="match_parent"
                 android:layout_height="5dp"
-                android:background="@drawable/horizontal_line"
-                />
+                android:background="@drawable/horizontal_line" />
 
             <TextView
                 android:id="@+id/whiteHatHAcker"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
                 android:gravity="center"
                 android:padding="16dp"
                 android:text="@string/whiteHatHAcker"
@@ -103,12 +103,13 @@
                 android:textSize="25sp" />
 
             // Black Hat Hacker
+
             <ImageView
                 android:id="@+id/imageView5"
                 android:layout_width="wrap_content"
                 android:layout_height="5dp"
-                android:layout_marginBottom="1dp"
                 android:layout_marginTop="16dp"
+                android:layout_marginBottom="1dp"
                 android:background="@drawable/horizontal_line"
                 tools:layout_editor_absoluteX="0dp" />
 
@@ -126,8 +127,7 @@
                 android:id="@+id/imageView6"
                 android:layout_width="match_parent"
                 android:layout_height="5dp"
-                android:background="@drawable/horizontal_line"
-                />
+                android:background="@drawable/horizontal_line" />
 
             <TextView
                 android:id="@+id/blackHatHAcker"
@@ -135,8 +135,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
                 android:gravity="center"
                 android:padding="16dp"
                 android:text="@string/blackHatHacker"
@@ -144,12 +144,13 @@
                 android:textSize="25sp" />
 
             // Grey Hat Hacker
+
             <ImageView
                 android:id="@+id/imageView7"
                 android:layout_width="wrap_content"
                 android:layout_height="5dp"
-                android:layout_marginBottom="1dp"
                 android:layout_marginTop="16dp"
+                android:layout_marginBottom="1dp"
                 android:background="@drawable/horizontal_line"
                 tools:layout_editor_absoluteX="0dp" />
 
@@ -167,8 +168,7 @@
                 android:id="@+id/imageView8"
                 android:layout_width="match_parent"
                 android:layout_height="5dp"
-                android:background="@drawable/horizontal_line"
-                />
+                android:background="@drawable/horizontal_line" />
 
             <TextView
                 android:id="@+id/greyHatHacker"
@@ -176,8 +176,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
                 android:gravity="center"
                 android:padding="16dp"
                 android:text="@string/greyHatHacker"
@@ -185,12 +185,13 @@
                 android:textSize="25sp" />
 
             //MISCELLANEOUS HACKERS
+
             <ImageView
                 android:id="@+id/imageView9"
                 android:layout_width="wrap_content"
                 android:layout_height="5dp"
-                android:layout_marginBottom="1dp"
                 android:layout_marginTop="16dp"
+                android:layout_marginBottom="1dp"
                 android:background="@drawable/horizontal_line"
                 tools:layout_editor_absoluteX="0dp" />
 
@@ -208,8 +209,7 @@
                 android:id="@+id/imageView10"
                 android:layout_width="match_parent"
                 android:layout_height="5dp"
-                android:background="@drawable/horizontal_line"
-                />
+                android:background="@drawable/horizontal_line" />
 
             <TextView
                 android:id="@+id/miscellaneousHackers"
@@ -217,8 +217,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
                 android:gravity="center"
                 android:padding="16dp"
                 android:text="@string/Miscellaneous_Hackers"
@@ -231,8 +231,8 @@
                 android:id="@+id/imageView11"
                 android:layout_width="wrap_content"
                 android:layout_height="5dp"
-                android:layout_marginBottom="1dp"
                 android:layout_marginTop="16dp"
+                android:layout_marginBottom="1dp"
                 android:background="@drawable/horizontal_line"
                 tools:layout_editor_absoluteX="0dp" />
 
@@ -250,8 +250,7 @@
                 android:id="@+id/imageView12"
                 android:layout_width="match_parent"
                 android:layout_height="5dp"
-                android:background="@drawable/horizontal_line"
-                />
+                android:background="@drawable/horizontal_line" />
 
             <TextView
                 android:id="@+id/redHatHacker"
@@ -259,8 +258,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
                 android:gravity="center"
                 android:padding="16dp"
                 android:text="@string/redHatHacker"
@@ -273,8 +272,8 @@
                 android:id="@+id/imageView13"
                 android:layout_width="wrap_content"
                 android:layout_height="5dp"
-                android:layout_marginBottom="1dp"
                 android:layout_marginTop="16dp"
+                android:layout_marginBottom="1dp"
                 android:background="@drawable/horizontal_line"
                 tools:layout_editor_absoluteX="0dp" />
 
@@ -292,8 +291,7 @@
                 android:id="@+id/imageView14"
                 android:layout_width="match_parent"
                 android:layout_height="5dp"
-                android:background="@drawable/horizontal_line"
-                />
+                android:background="@drawable/horizontal_line" />
 
             <TextView
                 android:id="@+id/blueHatHacker"
@@ -301,8 +299,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
                 android:gravity="center"
                 android:padding="16dp"
                 android:text="@string/blueHatHacker"
@@ -315,8 +313,8 @@
                 android:id="@+id/imageView15"
                 android:layout_width="wrap_content"
                 android:layout_height="5dp"
-                android:layout_marginBottom="1dp"
                 android:layout_marginTop="16dp"
+                android:layout_marginBottom="1dp"
                 android:background="@drawable/horizontal_line"
                 tools:layout_editor_absoluteX="0dp" />
 
@@ -334,8 +332,7 @@
                 android:id="@+id/imageView16"
                 android:layout_width="match_parent"
                 android:layout_height="5dp"
-                android:background="@drawable/horizontal_line"
-                />
+                android:background="@drawable/horizontal_line" />
 
             <TextView
                 android:id="@+id/eliteHackers"
@@ -343,8 +340,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
                 android:gravity="center"
                 android:padding="16dp"
                 android:text="@string/eliteHacker"
@@ -357,8 +354,8 @@
                 android:id="@+id/imageView17"
                 android:layout_width="wrap_content"
                 android:layout_height="5dp"
-                android:layout_marginBottom="1dp"
                 android:layout_marginTop="16dp"
+                android:layout_marginBottom="1dp"
                 android:background="@drawable/horizontal_line"
                 tools:layout_editor_absoluteX="0dp" />
 
@@ -376,8 +373,7 @@
                 android:id="@+id/imageView18"
                 android:layout_width="match_parent"
                 android:layout_height="5dp"
-                android:background="@drawable/horizontal_line"
-                />
+                android:background="@drawable/horizontal_line" />
 
             <TextView
                 android:id="@+id/scriptKiddie"
@@ -385,8 +381,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
                 android:gravity="center"
                 android:padding="16dp"
                 android:text="@string/scriptHatKiddie"
@@ -399,8 +395,8 @@
                 android:id="@+id/imageView19"
                 android:layout_width="wrap_content"
                 android:layout_height="5dp"
-                android:layout_marginBottom="1dp"
                 android:layout_marginTop="16dp"
+                android:layout_marginBottom="1dp"
                 android:background="@drawable/horizontal_line"
                 tools:layout_editor_absoluteX="0dp" />
 
@@ -418,8 +414,7 @@
                 android:id="@+id/imageView20"
                 android:layout_width="match_parent"
                 android:layout_height="5dp"
-                android:background="@drawable/horizontal_line"
-                />
+                android:background="@drawable/horizontal_line" />
 
             <TextView
                 android:id="@+id/neophyte"
@@ -427,8 +422,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
                 android:gravity="center"
                 android:padding="16dp"
                 android:text="@string/neophyte"
@@ -441,8 +436,8 @@
                 android:id="@+id/imageView21"
                 android:layout_width="wrap_content"
                 android:layout_height="5dp"
-                android:layout_marginBottom="1dp"
                 android:layout_marginTop="16dp"
+                android:layout_marginBottom="1dp"
                 android:background="@drawable/horizontal_line"
                 tools:layout_editor_absoluteX="0dp" />
 
@@ -460,8 +455,7 @@
                 android:id="@+id/imageView22"
                 android:layout_width="match_parent"
                 android:layout_height="5dp"
-                android:background="@drawable/horizontal_line"
-                />
+                android:background="@drawable/horizontal_line" />
 
             <TextView
                 android:id="@+id/hacktivist"
@@ -469,8 +463,8 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
                 android:gravity="center"
                 android:padding="16dp"
                 android:text="@string/hacktivist"
