@@ -42,7 +42,7 @@
                     android:shadowColor="@android:color/holo_green_dark"
                     android:singleLine="true"
                     android:textAllCaps="true"
-                    android:text="TUTORIAL"
+                    android:text="@string/tutorial"
                     android:textColor="@android:color/darker_gray"
                     android:textSize="60sp"
                     android:textStyle="bold|italic" />

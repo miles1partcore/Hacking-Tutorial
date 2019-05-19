@@ -26,7 +26,7 @@
         android:gravity="center_horizontal"
         android:text="TYPE OF HACKER"
         android:textColor="#000"
-        android:textSize="30sp" />
+        android:textSize="@dimen/HeadingSize" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -61,7 +61,7 @@
                 android:padding="16dp"
                 android:text="@string/type_of_hacker"
                 android:textColor="#69F0AE"
-                android:textSize="25sp" />
+                android:textSize="@dimen/TextSize" />
 
             // White Hat Hacker
 
@@ -82,7 +82,7 @@
                 android:gravity="center_horizontal"
                 android:text="WHITE HAT HACKER"
                 android:textColor="#000"
-                android:textSize="30sp" />
+                android:textSize="@dimen/HeadingSize" />
 
             <ImageView
                 android:id="@+id/imageView4"
@@ -100,7 +100,7 @@
                 android:padding="16dp"
                 android:text="@string/whiteHatHAcker"
                 android:textColor="#69F0AE"
-                android:textSize="25sp" />
+                android:textSize="@dimen/TextSize" />
 
             // Black Hat Hacker
 
@@ -121,7 +121,7 @@
                 android:gravity="center_horizontal"
                 android:text="BLACK HAT HACKER"
                 android:textColor="#000"
-                android:textSize="30sp" />
+                android:textSize="@dimen/HeadingSize" />
 
             <ImageView
                 android:id="@+id/imageView6"
@@ -141,7 +141,7 @@
                 android:padding="16dp"
                 android:text="@string/blackHatHacker"
                 android:textColor="#69F0AE"
-                android:textSize="25sp" />
+                android:textSize="@dimen/TextSize" />
 
             // Grey Hat Hacker
 
@@ -162,7 +162,7 @@
                 android:gravity="center_horizontal"
                 android:text="GREY HAT HACKER"
                 android:textColor="#000"
-                android:textSize="30sp" />
+                android:textSize="@dimen/HeadingSize" />
 
             <ImageView
                 android:id="@+id/imageView8"
@@ -182,7 +182,7 @@
                 android:padding="16dp"
                 android:text="@string/greyHatHacker"
                 android:textColor="#69F0AE"
-                android:textSize="25sp" />
+                android:textSize="@dimen/TextSize" />
 
             //MISCELLANEOUS HACKERS
 
@@ -203,7 +203,7 @@
                 android:gravity="center_horizontal"
                 android:text="MISCELLANEOUS HACKERS"
                 android:textColor="#000"
-                android:textSize="30sp" />
+                android:textSize="@dimen/HeadingSize" />
 
             <ImageView
                 android:id="@+id/imageView10"
@@ -223,7 +223,7 @@
                 android:padding="16dp"
                 android:text="@string/Miscellaneous_Hackers"
                 android:textColor="#69F0AE"
-                android:textSize="25sp" />
+                android:textSize="@dimen/TextSize" />
 
             // Red Hat Hacker
 
@@ -244,7 +244,7 @@
                 android:gravity="center_horizontal"
                 android:text="RED HAT HACKER"
                 android:textColor="#000"
-                android:textSize="30sp" />
+                android:textSize="@dimen/HeadingSize" />
 
             <ImageView
                 android:id="@+id/imageView12"
@@ -264,7 +264,7 @@
                 android:padding="16dp"
                 android:text="@string/redHatHacker"
                 android:textColor="#69F0AE"
-                android:textSize="25sp" />
+                android:textSize="@dimen/TextSize" />
 
             // Blue Hat Hacker
 
@@ -285,7 +285,7 @@
                 android:gravity="center_horizontal"
                 android:text="BLUE HAT HACKER"
                 android:textColor="#000"
-                android:textSize="30sp" />
+                android:textSize="@dimen/HeadingSize" />
 
             <ImageView
                 android:id="@+id/imageView14"
@@ -305,7 +305,7 @@
                 android:padding="16dp"
                 android:text="@string/blueHatHacker"
                 android:textColor="#69F0AE"
-                android:textSize="25sp" />
+                android:textSize="@dimen/TextSize" />
 
             // ELITE HACKER
 
@@ -326,7 +326,7 @@
                 android:gravity="center_horizontal"
                 android:text="ELITE HACKER"
                 android:textColor="#000"
-                android:textSize="30sp" />
+                android:textSize="@dimen/HeadingSize" />
 
             <ImageView
                 android:id="@+id/imageView16"
@@ -346,7 +346,7 @@
                 android:padding="16dp"
                 android:text="@string/eliteHacker"
                 android:textColor="#69F0AE"
-                android:textSize="25sp" />
+                android:textSize="@dimen/TextSize" />
 
             // SCRIPT KIDDIE
 
@@ -367,7 +367,7 @@
                 android:gravity="center_horizontal"
                 android:text="SCRIPT KIDDIE"
                 android:textColor="#000"
-                android:textSize="30sp" />
+                android:textSize="@dimen/HeadingSize" />
 
             <ImageView
                 android:id="@+id/imageView18"
@@ -387,7 +387,7 @@
                 android:padding="16dp"
                 android:text="@string/scriptHatKiddie"
                 android:textColor="#69F0AE"
-                android:textSize="25sp" />
+                android:textSize="@dimen/TextSize"/>
 
             // NEOPYTE
 
@@ -408,7 +408,7 @@
                 android:gravity="center_horizontal"
                 android:text="NEOPYTE"
                 android:textColor="#000"
-                android:textSize="30sp" />
+                android:textSize="@dimen/HeadingSize" />
 
             <ImageView
                 android:id="@+id/imageView20"
@@ -428,7 +428,7 @@
                 android:padding="16dp"
                 android:text="@string/neophyte"
                 android:textColor="#69F0AE"
-                android:textSize="25sp" />
+                android:textSize="@dimen/TextSize" />
 
             // HACKTIVIST
 
@@ -449,7 +449,7 @@
                 android:gravity="center_horizontal"
                 android:text="HACKTIVIST"
                 android:textColor="#000"
-                android:textSize="30sp" />
+                android:textSize="@dimen/HeadingSize" />
 
             <ImageView
                 android:id="@+id/imageView22"
@@ -469,7 +469,7 @@
                 android:padding="16dp"
                 android:text="@string/hacktivist"
                 android:textColor="#69F0AE"
-                android:textSize="25sp" />
+                android:textSize="@dimen/TextSize" />
 
         </LinearLayout>
     </ScrollView>

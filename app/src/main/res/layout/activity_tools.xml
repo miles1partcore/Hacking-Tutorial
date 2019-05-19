@@ -24,7 +24,7 @@
         android:text="Tools"
         android:textAllCaps="true"
         android:textColor="#000"
-        android:textSize="30sp"
+        android:textSize="@dimen/HeadingSize"
         android:textStyle="bold"/>
 
     <ImageView
@@ -47,20 +47,20 @@
                 android:gravity="center"
                 android:text="Metasploit"
                 android:textColor="#000"
-                android:textSize="30sp" />
+                android:textSize="@dimen/HeadingSize" />
             <ImageButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
                 android:background="@drawable/mata"
-                android:padding="8dp"/>
+                android:padding="@dimen/Padding"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/Matasploit"
                 android:textColor="@color/textcolor"
-                android:textSize="25sp"/>
+                android:textSize="@dimen/TextSize"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -69,19 +69,19 @@
                 android:gravity="center"
                 android:text="Acunetix WVS"
                 android:textColor="#000"
-                android:textSize="30sp" />
+                android:textSize="@dimen/HeadingSize" />
             <ImageButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/wvs"
-                android:padding="8dp"/>
+                android:padding="@dimen/Padding"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/Acunetix"
                 android:textColor="@color/textcolor"
-                android:textSize="25sp"/>
+                android:textSize="@dimen/TextSize"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -90,19 +90,19 @@
                 android:gravity="center"
                 android:text="NMAP"
                 android:textColor="#000"
-                android:textSize="30sp" />
+                android:textSize="@dimen/HeadingSize" />
             <ImageButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/nmap"
-                android:padding="8dp"/>
+                android:padding="@dimen/Padding"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/NMAP"
                 android:textColor="@color/textcolor"
-                android:textSize="25sp"/>
+                android:textSize="@dimen/TextSize"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -111,19 +111,19 @@
                 android:gravity="center"
                 android:text="Wireshark"
                 android:textColor="#000"
-                android:textSize="30sp" />
+                android:textSize="@dimen/HeadingSize" />
             <ImageButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/wireshark"
-                android:padding="8dp"/>
+                android:padding="@dimen/Padding"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/Wireshark"
                 android:textColor="@color/textcolor"
-                android:textSize="25sp"/>
+                android:textSize="@dimen/TextSize"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -132,19 +132,19 @@
                 android:gravity="center"
                 android:text="Nessus Vulnerability Scanner"
                 android:textColor="#000"
-                android:textSize="30sp" />
+                android:textSize="@dimen/HeadingSize" />
             <ImageButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/nessus"
-                android:padding="8dp"/>
+                android:padding="@dimen/Padding"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/Nessus"
                 android:textColor="@color/textcolor"
-                android:textSize="25sp"/>
+                android:textSize="@dimen/TextSize"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -153,19 +153,19 @@
                 android:gravity="center"
                 android:text="Maltego"
                 android:textColor="#000"
-                android:textSize="30sp" />
+                android:textSize="@dimen/HeadingSize" />
             <ImageButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/maltego"
-                android:padding="8dp"/>
+                android:padding="@dimen/Padding"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/Maltego"
                 android:textColor="@color/textcolor"
-                android:textSize="25sp"/>
+                android:textSize="@dimen/TextSize"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -174,19 +174,19 @@
                 android:gravity="center"
                 android:text="Netsparker"
                 android:textColor="#000"
-                android:textSize="30sp" />
+                android:textSize="@dimen/HeadingSize" />
             <ImageButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/netsparker"
-                android:padding="8dp"/>
+                android:padding="@dimen/Padding"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:text="@string/Netsparker"
                 android:textColor="@color/textcolor"
-                android:textSize="25sp"/>
+                android:textSize="@dimen/TextSize"/>
 
         </LinearLayout>
     </ScrollView>

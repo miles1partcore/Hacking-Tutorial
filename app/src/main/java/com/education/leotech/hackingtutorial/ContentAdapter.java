@@ -17,8 +17,8 @@ import java.util.ArrayList;
 
 public class ContentAdapter extends ArrayAdapter<content> {
 
-    public ContentAdapter(Activity context, ArrayList<content> Content){
-        super (context, 0,Content);
+    public ContentAdapter(Activity context, ArrayList<content> Content) {
+        super(context, 0, Content);
     }
 
 
@@ -31,8 +31,8 @@ public class ContentAdapter extends ArrayAdapter<content> {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.content_layout,parent,false);
         }
 
-        TextView contenttitle = (TextView) convertView.findViewById(R.id.contentTitle);
-        ImageView contentimage = (ImageView) convertView.findViewById(R.id.image);
+        TextView contenttitle =  convertView.findViewById(R.id.contentTitle);
+        ImageView contentimage =  convertView.findViewById(R.id.image);
 
 
         contenttitle.setText(Content.getmContentName());

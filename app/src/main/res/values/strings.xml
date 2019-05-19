@@ -1,11 +1,9 @@
 <resources>
-    // ad String
-
-
     //app String
 
     <string name="app_name">Hacking Tutorial</string>
     <string name="hacking">Hacking</string>
+    <string name="tutorial">TUTORIAL</string>
     <string name="button_text">Start Tutorial</string>
     <string name="overview">Hacking has been a part of computing for almost five decades and it is a very broad discipline, which covers a wide range of topics. The first known event of hacking had taken place in 1960 at MIT and at the same time, the term "Hacker" was originated.
 Hacking is the act of finding the possible entry points that exist in a computer system or a computer network and finally entering into them. Hacking is usually done to gain unauthorized access to a computer system or a computer network, either to harm the systems or to steal sensitive information available on the computer.
@@ -71,20 +69,36 @@ This GTK+-based network protocol analyzer runs with ease on Linux, Windows, and 
     <string name="about_us">About Us</string>
     <string name="communicate">Communicate</string>
     <string name="share">Share</string>
-    <string name="Skills">Why should you learn how to program?</string>
     <string name="skills_content">
-    Hackers are the problem solver and tool builders, learning how to program will help you implement solutions to problems. It also differentiates you from script kiddies.
-    Writing programs as a hacker will help you to automate many tasks which would usually take lots of time to complete.
-    Writing programs can also help you identify and exploit programming errors in applications that you will be targeting.
-    You don’t have to reinvent the wheel all the time, and there are a number of open source programs that are readily usable. You can customize the already existing applications and add your methods to suit your needs.
+    As an ethical hacker, you will need to understand various hacking techniques such as −
+\n\n
+    Password guessing and cracking \n
+    Session hijacking \n
+    Session spoofing \n
+    Network traffic sniffing \n
+    Denial of Service attacks \n
+    Exploiting buffer overflow vulnerabilities \n
+    SQL injection \n\n
+
+In this chapter, we will discuss some of the skills that you would require to become an expert in Ethical Hacking. \n\n
+
+        <b><i>Basic Skills</i></b> \n\n
+
+Computer Hacking is a Science as well as an Art. Like any other expertise, you need to put a lot of effort in order to acquire knowledge and become an expert hacker. Once you are on the track, you would need more effort to keep up-to-date with latest technologies, new vulnerabilities and exploitation techniques. \n
+
+    An ethical hacker must be a computer systems expert and needs to have very strong programming and computer networking skills. \n
+
+    An ethical hacker needs to have a lot of patience, persistence, and perseverance to try again and again and wait for the required result.\n
+
+Additionally, an ethical hacker should be smart enough to understand the situation and other users’ mind-set in order to apply social engineering exploits. A good ethical hacker has great problem-solving skills too.\n
 </string>
     <string name="skills">SKILLS</string>
-    <string name="skills_content2">Programming languages that are useful to hackers</string>
     <string name="menu_image">menuimage</string>
     <string name="boundary_line_image">boundary_line</string>
     <string name="footprinting">Footprinting</string>
     <string name="footprinting_text">Footprinting (also known as reconnaissance) is the technique used for gathering information about computer systems and the entities they belong to. To get this information, a hacker might use various tools and technologies. This information is very useful to a hacker who is trying to crack a whole system.[1]
 
 When used in the computer security lexicon, "Footprinting" generally refers to one of the pre-attack phases; tasks performed prior to doing the actual attack. Some of the tools used for Footprinting are Sam Spade, nslookup, traceroute, Nmap and neotrace</string>
+
 
 </resources>

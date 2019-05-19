@@ -27,7 +27,7 @@
         android:gravity="center_horizontal"
         android:text="OVERVIEW"
         android:textColor="#000"
-        android:textSize="30sp" />
+        android:textSize="@dimen/HeadingSize" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -63,7 +63,7 @@
                 android:padding="16dp"
                 android:text="@string/overview"
                 android:textColor="#69F0AE"
-                android:textSize="25sp" />
+                android:textSize="@dimen/TextSize" />
         </LinearLayout>
     </ScrollView>
 
