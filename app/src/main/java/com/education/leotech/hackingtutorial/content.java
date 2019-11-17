@@ -12,10 +12,10 @@ public class content {
         mActivityId = ActivityId;
     }
 
-    public content(String ContentName, int Image){
+   /* public content(String ContentName, int Image){
         mContentName = ContentName;
         mImage = Image;
-    }
+    }*/
 
     public String getmContentName() {
         return mContentName;
@@ -25,5 +25,7 @@ public class content {
         return mImage;
     }
 
-    public int getmActivityId(){return mActivityId;}
+    public int getmActivityId(){
+        return mActivityId;
+    }
 }

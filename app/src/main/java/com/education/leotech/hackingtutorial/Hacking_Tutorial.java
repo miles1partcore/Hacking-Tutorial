@@ -4,6 +4,7 @@ package com.education.leotech.hackingtutorial;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -36,7 +37,7 @@ public class Hacking_Tutorial extends AppCompatActivity
 
         // for animation
         Animation mfromRight, mfromLeft;
-
+        Log.d("Log_test", "onCreate: give anim ");
 
 
         //linking button for main_List_Activity
