@@ -1,0 +1,5 @@
+{
+  "image": "ghcr.io/eliises/devcontainer-features/devcontainers-cli:1",
+  "features": {
+  }
+}
